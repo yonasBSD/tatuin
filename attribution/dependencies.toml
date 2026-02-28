@@ -284,7 +284,7 @@ repository = "https://github.com/katharostech/cfg_aliases"
 
 [[dependencies]]
 name = "chrono"
-version = "0.4.43"
+version = "0.4.44"
 description = "Date and time library for Rust"
 license = "MIT OR Apache-2.0"
 notices = [
@@ -586,7 +586,7 @@ repository = "https://github.com/TedDriggs/darling"
 
 [[dependencies]]
 name = "deranged"
-version = "0.5.6"
+version = "0.5.8"
 description = "Ranged integers"
 license = "MIT OR Apache-2.0"
 notices = [
@@ -1392,7 +1392,7 @@ repository = "https://github.com/rust-lang/jobserver-rs"
 
 [[dependencies]]
 name = "js-sys"
-version = "0.3.87"
+version = "0.3.91"
 description = """
 Bindings for all JS global objects and functions in all JS environments like
 Node.js and browsers, built on `#[wasm_bindgen]` using the `wasm-bindgen` crate.
@@ -1456,7 +1456,7 @@ repository = "https://github.com/sunfishcode/linux-raw-sys"
 
 [[dependencies]]
 name = "linux-raw-sys"
-version = "0.11.0"
+version = "0.12.1"
 description = "Generated bindings for Linux's userspace API"
 license = "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
 authors = ["Dan Gohman <dev@sunfishcode.online>"]
@@ -1750,7 +1750,7 @@ repository = "https://github.com/sgodwincs/ordered-multimap-rs"
 
 [[dependencies]]
 name = "owo-colors"
-version = "4.2.3"
+version = "4.3.0"
 description = "Zero-allocation terminal colors that'll make people go owo"
 license = "MIT"
 notices = ["Copyright (c) 2020 - present The owo-colors Developers"]
@@ -1875,7 +1875,7 @@ repository = "https://github.com/rust-phf/rust-phf"
 
 [[dependencies]]
 name = "pin-project-lite"
-version = "0.2.16"
+version = "0.2.17"
 description = """
 A lightweight version of pin-project written with declarative macros.
 """
@@ -2171,7 +2171,7 @@ homepage = "https://github.com/rust-lang/regex/tree/master/regex-automata"
 
 [[dependencies]]
 name = "regex-syntax"
-version = "0.8.9"
+version = "0.8.10"
 description = "A regular expression parser."
 license = "MIT OR Apache-2.0"
 notices = ["Copyright (c) 2014 The Rust Project Developers"]
@@ -2274,7 +2274,7 @@ repository = "https://github.com/bytecodealliance/rustix"
 
 [[dependencies]]
 name = "rustix"
-version = "1.1.3"
+version = "1.1.4"
 description = "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls"
 license = "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT"
 authors = [
@@ -2285,7 +2285,7 @@ repository = "https://github.com/bytecodealliance/rustix"
 
 [[dependencies]]
 name = "rustls"
-version = "0.23.36"
+version = "0.23.37"
 description = "Rustls is a modern TLS library written in Rust."
 license = "Apache-2.0 OR ISC OR MIT"
 notices = [
@@ -2697,7 +2697,7 @@ repository = "https://github.com/Peternator7/strum"
 
 [[dependencies]]
 name = "strum"
-version = "0.27.2"
+version = "0.28.0"
 description = "Helpful macros for working with enums and strings"
 license = "MIT"
 notices = ["Copyright (c) 2019 Peter Glotfelty"]
@@ -2715,7 +2715,7 @@ repository = "https://github.com/Peternator7/strum"
 
 [[dependencies]]
 name = "strum_macros"
-version = "0.27.2"
+version = "0.28.0"
 description = "Helpful macros for working with enums and strings"
 license = "MIT"
 notices = ["Copyright (c) 2019 Peter Glotfelty"]
@@ -2798,7 +2798,7 @@ repository = "https://github.com/panter-dsd/tatuin"
 
 [[dependencies]]
 name = "tempfile"
-version = "3.25.0"
+version = "3.26.0"
 description = "A library for managing temporary files and directories."
 license = "MIT OR Apache-2.0"
 notices = ["Copyright (c) 2015 Steven Allen"]
@@ -3477,7 +3477,7 @@ repository = "https://github.com/bytecodealliance/wasi-rs"
 
 [[dependencies]]
 name = "wasm-bindgen"
-version = "0.2.110"
+version = "0.2.114"
 description = """
 Easy support for interacting between JS and Rust.
 """
@@ -3489,7 +3489,7 @@ homepage = "https://wasm-bindgen.github.io/wasm-bindgen"
 
 [[dependencies]]
 name = "wasm-bindgen-futures"
-version = "0.4.60"
+version = "0.4.64"
 description = "Bridging the gap between Rust Futures and JavaScript Promises"
 license = "MIT OR Apache-2.0"
 notices = ["Copyright (c) 2014 Alex Crichton"]
@@ -3499,7 +3499,7 @@ homepage = "https://wasm-bindgen.github.io/wasm-bindgen/"
 
 [[dependencies]]
 name = "wasm-bindgen-macro"
-version = "0.2.110"
+version = "0.2.114"
 description = """
 Definition of the `#[wasm_bindgen]` attribute, an internal dependency
 """
@@ -3511,7 +3511,7 @@ homepage = "https://wasm-bindgen.github.io/wasm-bindgen/"
 
 [[dependencies]]
 name = "wasm-bindgen-macro-support"
-version = "0.2.110"
+version = "0.2.114"
 description = "Implementation APIs for the `#[wasm_bindgen]` attribute"
 license = "MIT OR Apache-2.0"
 notices = ["Copyright (c) 2014 Alex Crichton"]
@@ -3521,7 +3521,7 @@ homepage = "https://wasm-bindgen.github.io/wasm-bindgen/"
 
 [[dependencies]]
 name = "wasm-bindgen-shared"
-version = "0.2.110"
+version = "0.2.114"
 description = """
 Shared support between wasm-bindgen and wasm-bindgen cli, an internal
 dependency.
@@ -3561,7 +3561,7 @@ repository = "https://github.com/bytecodealliance/wasm-tools/tree/main/crates/wa
 
 [[dependencies]]
 name = "web-sys"
-version = "0.3.87"
+version = "0.3.91"
 description = """
 Bindings for all Web APIs, a procedurally generated crate from WebIDL
 """
@@ -4079,7 +4079,7 @@ repository = "https://github.com/unicode-org/icu4x"
 
 [[dependencies]]
 name = "zerocopy"
-version = "0.8.39"
+version = "0.8.40"
 description = """Zerocopy makes zero-cost memory manipulation effortless. We write "unsafe" so you don't have to."""
 license = "BSD-2-Clause OR Apache-2.0 OR MIT"
 notices = [
@@ -4094,7 +4094,7 @@ repository = "https://github.com/google/zerocopy"
 
 [[dependencies]]
 name = "zerocopy-derive"
-version = "0.8.39"
+version = "0.8.40"
 description = "Custom derive for traits from the zerocopy crate"
 license = "BSD-2-Clause OR Apache-2.0 OR MIT"
 notices = [
